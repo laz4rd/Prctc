@@ -1,20 +1,6 @@
-# 📘 DSA Basics in C – Quick Revision Notes
+# 📘 DS Notes [36]
 
-This repository contains 4 fundamental programs from **Data Structures and Algorithms (DSA)** in C.  
-Perfect for **last-minute exam prep** — each code is short, commented, and easy to understand.
-
----
-
-## ⚙️ Programs Included
-
-| No. | Program Name | Concept | Description |
-|-----|---------------|---------|--------------|
-| 1️⃣ | **Stack (Array Implementation)** | Linear Data Structure | Stores elements in LIFO (Last In First Out) order. Supports `push`, `pop`, `display`. |
-| 2️⃣ | **Queue (Array Implementation)** | Linear Data Structure | Follows FIFO (First In First Out). Supports `enqueue`, `dequeue`, `display`. |
-| 3️⃣ | **Bubble Sort** | Sorting Algorithm | Repeatedly swaps adjacent elements if they are in the wrong order. Simple but slow (O(n²)). |
-| 4️⃣ | **Selection Sort** | Sorting Algorithm | Selects the smallest element and places it at the beginning. Also O(n²) but fewer swaps. |
-
----
+**Use this repository to study for the Lab Examination, the folder named `Premade` includes the 4 files from `ChatGPT` and the folder named `Redone` includes the 4 files written by me.**
 
 ## 🧠 Quick Notes
 
