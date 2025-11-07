@@ -28,7 +28,7 @@ void dequeue()
     }
     else
     {
-        printf("%d dequeued from queue\n", queue[front]);
+        printf("%d dequeued from queue \n", queue[front]);
         front++;
     }
 }
