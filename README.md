@@ -40,16 +40,37 @@ Perfect for **last-minute exam prep** — each code is short, commented, and eas
 - **Worst case:** O(n²)  
 - Easy to implement, good for small arrays.
 
+```c
+for(i=0;i<a;i++)
+    {
+        for(j=0;j<a-i-1;j++)
+        {
+            if(arr[j]>arr[j+1])
+            {
+                temp=arr[j];
+                arr[j]=arr[j+1];
+                arr[j+1]=temp;
+            }
+        }
+    }
+```
 ### 🔹 Selection Sort
 - Finds the smallest element and places it in the correct position each pass.  
 - **Always O(n²)** time complexity.  
 - Makes fewer swaps than bubble sort.  
 - Good for learning, not efficient for large data.
+```c
+for(i = 0; i < a - 1; i++) {
+    minIndex = i;
+    for(j = i + 1; j < a; j++) {
+        if(arr[j] < arr[minIndex]) {
+            minIndex = j;
+        }
+    }
 
+    temp = arr[i];
+    arr[i] = arr[minIndex];
+    arr[minIndex] = temp;
+}
+```
 ---
-
-## 🧾 How to Run
-
-```bash
-gcc filename.c -o output
-./output
